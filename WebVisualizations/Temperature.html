@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>World Weather Temperature</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded navbar-fixed-top box-1">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\home_page.html">Global Weather!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon justify-content-end"></span>
+            </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse justify-content-end">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle navbar-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\Cloudiness.html">Cloudiness</a></li>
+                        <li><a class="dropdown-item" href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\Humidity.html">Humidity</a></li>
+                        <li><a class="dropdown-item" href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\Temperature.html">Temperature</a></li>
+                        <li><a class="dropdown-item" href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\WindSpeed.html">Wind Speed</a></li>
+                    </ul>
+                </li>
+                <li><a class="navbar-text" href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\Comparison.html"> Comparison  </a></li>
+                <li><a class="navbar-text" href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\Data.html"> Data </a></li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h4 class="card-title">Temperature</h4>
+                    <img src="https://github.com/aisaacson1/Web-Design-Challenge/blob/master/WebVisualizations/Visualizations/City_Latitude_v_Temperature.png?raw=true" alt="..." class="img-thumbnail">
+                    <p class="card-text">As expected temperatures do increase as you get closer to the equator, however they drop off much faster in the positive latitudes versus the negative latititudes. </p>
+                  </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-center">
+                <div class="card-body"><h4 class="card-title">Visualizations</h4>
+                </div>
+                <div class="card-block">
+                    <div class="row">
+                        <div class="col">
+                          <a href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\Cloudiness.html">
+                            <img src="https://github.com/aisaacson1/Web-Design-Challenge/blob/master/WebVisualizations/Visualizations/City_Latitude_v_Cloudiness.png?raw=true" alt="..." class="img-thumbnail"></a>
+                          <a href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\Humidity.html">
+                              <img src="https://github.com/aisaacson1/Web-Design-Challenge/blob/master/WebVisualizations/Visualizations/City_Latitude_v_Humidity.png?raw=true" alt="..." class="img-thumbnail"></a>
+                        </div>
+                        <div class="col">
+                          <a href="C:\Users\Aaron\Documents\GW_Data_Course\AIsaacson_GW_HW\Web-Design-Challenge\WebVisualizations\WindSpeed.html">
+                              <img src="https://github.com/aisaacson1/Web-Design-Challenge/blob/master/WebVisualizations/Visualizations/City_Latitude_v_Wind%20Speed.png?raw=true" alt="..." class="img-thumbnail"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>
